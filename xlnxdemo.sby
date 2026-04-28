@@ -38,4 +38,3 @@ prep -top xlnxdemo
 
 [files]
 xlnxdemo.sv
-faxil_slave.sv
