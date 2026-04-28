@@ -34,7 +34,6 @@ smtbmc  --progress boolector
 
 [script]
 read -formal xlnxdemo.sv
-read -formal faxil_slave.sv
 prep -top xlnxdemo
 
 [files]
