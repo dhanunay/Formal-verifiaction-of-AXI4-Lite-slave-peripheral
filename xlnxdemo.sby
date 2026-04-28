@@ -1,0 +1,42 @@
+[tasks]
+basic bmc
+repro_bug1 prove
+repro_bug2 prove
+repro_bug3 prove
+cover
+prove
+noverific cover
+basic cover : default
+
+[options]
+cover:
+mode cover
+depth 50
+--
+prove:
+mode prove
+depth 20
+append 3
+--
+bmc: 
+mode bmc
+depth 40
+append 3
+--
+
+[engines]
+smtbmc  --progress boolector
+#smtbmc yices     
+# abc pdr -v
+#abc pdr -c "pdr -v"
+#aiger suprove
+
+
+[script]
+read -formal xlnxdemo.sv
+read -formal faxil_slave.sv
+prep -top xlnxdemo
+
+[files]
+xlnxdemo.sv
+faxil_slave.sv
