@@ -1,7 +1,7 @@
 ```
 commands : " sby -f xlnxdemo.sby prove "  -- for K-induction engine
-            " sby -f xlnxdemo.sby "       -- for Bounded Model checking(BMC)
-            " sby -f xlnxdemo.sby cover"  -- for Cover property
+           " sby -f xlnxdemo.sby "        -- for Bounded Model checking(BMC)
+           " sby -f xlnxdemo.sby cover"   -- for Cover property
 ```
 ```
 OSS CAD Suite⦘ india@india-Lenovo-ideapad-320-15IKB:~/Downloads/yosys/axil$ sby -f xlnxdemo.sby prove
