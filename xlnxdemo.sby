@@ -12,29 +12,37 @@ basic cover : default
 cover:
 mode cover
 depth 50
+[engines]
+smtbmc  --progress boolector
+
 --
 prove:
 mode prove
-depth 20
+depth 50
 append 3
+[engines]
+abc pdr -c "pdr -v"
+##aiger suprove
 --
 bmc: 
 mode bmc
 depth 40
 append 3
---
-
 [engines]
 smtbmc  --progress boolector
+
+--
+
 #smtbmc yices     
 # abc pdr -v
-#abc pdr -c "pdr -v"
-#aiger suprove
+##aiger suprove
 
 
 [script]
 read -formal xlnxdemo.sv
+read -formal faxil_slave.sv
 prep -top xlnxdemo
 
 [files]
 xlnxdemo.sv
+faxil_slave.sv
