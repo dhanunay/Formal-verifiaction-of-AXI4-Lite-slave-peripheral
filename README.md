@@ -1,3 +1,6 @@
+commands : " sby -f xlnxdemo.sby prove "  -- for K-induction engine
+            " sby -f xlnxdemo.sby "       -- for Bounded Model checking(BMC)
+            " sby -f xlnxdemo.sby cover"  -- for Cover property
 ```
 OSS CAD Suite⦘ india@india-Lenovo-ideapad-320-15IKB:~/Downloads/yosys/axil$ sby -f xlnxdemo.sby prove
 SBY 13:08:26 [xlnxdemo_prove] Removing directory '/home/india/Downloads/yosys/axil/xlnxdemo_prove'.
