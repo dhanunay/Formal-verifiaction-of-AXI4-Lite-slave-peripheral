@@ -1,3 +1,4 @@
+```
 OSS CAD Suite⦘ india@india-Lenovo-ideapad-320-15IKB:~/Downloads/yosys/axil$ sby -f xlnxdemo.sby prove
 SBY 13:08:26 [xlnxdemo_prove] Removing directory '/home/india/Downloads/yosys/axil/xlnxdemo_prove'.
 SBY 13:08:26 [xlnxdemo_prove] Copy '/home/india/Downloads/yosys/axil/xlnxdemo.sv' to '/home/india/Downloads/yosys/axil/xlnxdemo_prove/src/xlnxdemo.sv'.
@@ -629,5 +630,6 @@ SBY 13:10:31 [xlnxdemo_prove] summary: Elapsed process time [H:MM:SS (secs)]: 0:
 SBY 13:10:31 [xlnxdemo_prove] summary: engine_0 (abc pdr -c "pdr -v") returned PASS
 SBY 13:10:31 [xlnxdemo_prove] summary: engine_0 did not produce any traces
 SBY 13:10:31 [xlnxdemo_prove] DONE (PASS, rc=0)
-⦗OSS CAD Suite⦘ india@india-Lenovo-ideapad-320-15IKB:~/Downloads/yosys/axil$ 
+⦗OSS CAD Suite⦘ india@india-Lenovo-ideapad-320-15IKB:~/Downloads/yosys/axil$
+```
 
